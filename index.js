@@ -9,7 +9,7 @@ app.use(express.json({
     urlencoded : true
 }))
 
-mongoose.connect('mongodb+srv://22sanjeevrai22:<vervain1628>@cluster0.tyfghmt.mongodb.net/?retryWrites=true&w=majority', (err) =>{
+mongoose.connect('mongodb+srv://22sanjeevrai22:<password>@cluster0.tyfghmt.mongodb.net/?retryWrites=true&w=majority', (err) =>{
     if(err){
         console.log('Yo bro, you have error', err)
     }
